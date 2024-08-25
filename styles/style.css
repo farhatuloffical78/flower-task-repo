@@ -79,6 +79,7 @@
     margin-top: 10px;
     font-size: 18px;
     font-weight: 400;
+    color: rgba(39, 39, 39, 0.6)
 }
 .feature-card-images{
     display: flex;
@@ -89,8 +90,8 @@
 
 .feature-card-images p{
     /* border: 2px solid red; */
-    margin-top: auto;
     background: white;
+    color: rgb(39, 39, 39);
     padding: 10px;
     text-align: center;
 }
@@ -189,8 +190,7 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-
-    /* border: 2px solid rgb(255, 0, 234); */
+    justify-content: center;
 }
 
 .second-banner-text-container{
@@ -218,7 +218,7 @@
 
 .second-banner-image-container{
     display: flex;
-    width: 45%;
+    width: 40%;
     /* height: 500px; */
     /* border: 2px solid rgb(194, 55, 55); */
     justify-content: center;
@@ -241,4 +241,148 @@
     margin-top: 20px;
     border-radius: 5px;
     border: none;
+}
+.instagram-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.instagram-text-container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.instagram-text-container h3{
+    font-size: 30px;
+}
+.instagram-text-container p{
+    margin-top: 10px;
+    font-family: Lato;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.6);
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.instagram-image-container{
+    margin-top: 30px;
+}
+
+.instagram-image-container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 20px;
+    
+}
+
+.instagram-image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .last-banner-part{
+    width: 80%;
+    height: 350px;
+    margin: 50px auto 0px auto;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+  }
+.last-part-container{
+
+    border: 2px solid blue;
+    width: 60%;
+    margin: auto;
+}
+.heading-part{
+    text-align: center;
+}
+
+.heading-part h3{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+.heading-part p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.search-section{
+    display: flex;
+    margin-top: 10px;
+}
+.last-part-container input{
+    width: 75%;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+}
+
+.last-part-container button{
+    width: 20%;
+    background-color: rgb(229, 84, 115);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+}
+
+.bottom-part{
+    max-width: 1920px;
+    height: 260px;
+    background: rgb(17, 16, 16);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-container h3{
+    color: white;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.footer-container p{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.bottom-part > p{
+    font-family: Lato;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 10px;
 }
